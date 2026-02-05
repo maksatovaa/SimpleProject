@@ -1,0 +1,46 @@
+﻿<Window x:Class="Shoe.store.loginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Shoe.store"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="450" Width="800">
+    <Grid>
+        <StackPanel Width="400"
+                    Margin="0 40"
+                    Background="#7FFF00"> 
+            
+            <Label Content="Логин"
+                   FontSize="24"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   Margin="10"/>
+            
+            <TextBox FontSize="25"
+                Margin="10"/>
+            
+            <Label Content="Пароль"
+                   FontSize="24"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   Margin="10"/>
+            
+            <PasswordBox FontSize="25"
+                Margin="10"
+                         />
+            
+            <Button Content="Войти"
+                    FontSize="28"
+                    Margin="5"
+                    Width="150"
+                    />
+            
+            <Button Content="Войти как гость"
+                    FontSize="28"
+                    Margin="5"
+                    Width="210"
+                    />
+        </StackPanel>
+    </Grid>
+</Window>
